@@ -4,7 +4,7 @@ from django.core.exceptions import ValidationError
 
 from django.core.management.base import BaseCommand
 
-# custom command to create new user
+# custom command to create new user with Arguments Without Prompt
 class Command(BaseCommand):
     # to define what this commands will exaclty do/perform certain action
     help = 'This commands will create a normal user using commands line'
